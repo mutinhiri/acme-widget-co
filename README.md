@@ -23,14 +23,13 @@ This project models a basket that calculates totals, applies offers, and calcula
 
 Clone the repository:
 
-<pre class="overflow-visible!" data-start="787" data-end="877"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-bash"><span><span>git </span><span>clone</span><span> https://github.com/yourusername/acme-widget-co.git
-</span><span>cd</span><span> acme-widget-co
-</span></span></code></div></div></pre>
+git clone ``https://github.com/mutinhiri/acme-widget-co``
 
 Run the demo:
 
-<pre class="overflow-visible!" data-start="894" data-end="918"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-bash"><span><span>ruby main.rb
-</span></span></code></div></div></pre>
+```
+ruby main.rb
+```
 
 ---
 
@@ -83,19 +82,6 @@ puts basket4.total  </span><span># => 98.27</span><span>
 ---
 
 ## Project Structure
-
-<pre class="overflow-visible!" data-start="2318" data-end="2551"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre!"><span><span>acme-widget-co/
-├── acme_basket/
-│   ├── basket</span><span>.rb</span><span>
-│   ├── product</span><span>.rb</span><span>
-│   ├── product_catalog</span><span>.rb</span><span>
-│   ├── offers/
-│   │   └── red_widget_offer</span><span>.rb</span><span>
-│   └── delivery_rules/
-│       └── tiered_delivery</span><span>.rb</span><span>
-├── </span><span>main</span><span>.rb</span><span>
-└── README</span><span>.md</span><span>
-</span></span></code></div></div></pre>
 
 * `main.rb` – demo runner with example baskets.
 * `acme_basket/` – all core classes and modules.
